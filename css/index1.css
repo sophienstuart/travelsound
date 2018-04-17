@@ -3,7 +3,7 @@ body {
 }
 #frontpagebody {
   background-image: url('../images/spinglobe2.gif'), url('../images/sky3.jpg');
-  background-position: center, center;
+  background-position: center top, center;
   background-repeat: no-repeat, repeat;
   background-size: contain, contain;
   background-attachment: fixed, scroll;
@@ -13,6 +13,7 @@ body {
 #mainfont {
   font-size: 110px;
   text-align: center;
+  margin: auto;
 }
 a:link {
   font-size: 100%;
