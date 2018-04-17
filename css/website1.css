@@ -1,0 +1,54 @@
+body {
+
+}
+#frontpagebody {
+  background-image: url('../images/spinglobe2.gif'), url('../images/sky3.jpg');
+  background-position: center, center;
+  background-repeat: no-repeat, repeat;
+  background-size: contain, contain;
+  background-attachment: fixed, scroll;
+  height: 4000px;
+  font-family: 'Acme', sans-serif;
+}
+#mainfont {
+  font-size: 110px;
+  text-align: center;
+}
+a:link {
+  font-size: 100%;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+}
+a:visited {
+  font-size: 100%;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  font-size: 200%;
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+.SMG {
+  height: 1000px;
+  position: fixed;
+  margin: 0 auto;
+}
+#websitebody {
+  background-image: url('../images/worldmapplain.png'), url('../images/sky3.jpg');
+  background-size: cover;
+  background-color: #F0F8FF;
+  font-family: 'Acme', sans-serif;
+}
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}
